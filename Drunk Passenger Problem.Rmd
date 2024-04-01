@@ -46,7 +46,7 @@ dpseat = function(n) {
 }
 ```
 
-```{r include=FALSE}
+```{r}
 N_seat = 100 # Number of Seats
 trials = 100000 # Number of Trials
 
