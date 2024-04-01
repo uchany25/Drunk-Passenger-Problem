@@ -50,7 +50,7 @@ dpseat = function(n) {
 N_seat = 100 # Number of Seats
 trials = 100000 # Number of Trials
 
-df = print(replicate(trials, dpseat(N_seat))) #Replicate the above function with 100,000 trials to approximate the experimental probability closer to the theoretical probability, which we found to be 1/2
+df = replicate(trials, dpseat(N_seat)) #Replicate the above function with 100,000 trials to approximate the experimental probability closer to the theoretical probability, which we found to be 1/2
 
 dff = data.frame(df)
 
