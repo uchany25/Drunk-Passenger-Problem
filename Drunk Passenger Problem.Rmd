@@ -66,5 +66,5 @@ cat('0:',num_zeros, '1:',num_ones)
 ```
 
 ```{r}
-cat('The probability of last person it his own seat:', round(mean(df),2))
+cat('The probability that the last passenger takes his/her designated seat:', round(mean(df),2))
 ```
